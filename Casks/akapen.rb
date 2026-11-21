@@ -1,8 +1,8 @@
 # 雛形は akapen のリポジトリの apps/mac/packaging/homebrew/akapen.rb.template。
 # pnpm release:mac が版と sha256 を埋めて作り、pnpm publish:mac が yuto343/homebrew-tap に置く。直すときは雛形を直す。
 cask "akapen" do
-  version "0.1.0"
-  sha256 "7fe0f5f131de1de939a23988dceb7e97ee18ff014ec68f636c4ba5b406834052"
+  version "0.1.1"
+  sha256 "d31ac8420d8170ce884da8b6af197396160d081389a1ea0b6e10fbe66257a4ac"
 
   url "https://github.com/yuto343/akapen/releases/download/v#{version}/akapen-#{version}.zip"
   name "akapen"
